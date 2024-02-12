@@ -1,0 +1,160 @@
+.marquee {
+  overflow: hidden;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  display: flex;
+}
+
+.marquee h1{
+  font-size: 1em;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.redt {
+ color: #73280d;
+}
+
+.color1 {
+ background-color: #FFE285;
+}
+
+
+.color1btn {
+ background-color: #FFE285;
+}
+
+.color1btn:hover {
+ background-color: #be602b;
+ color:#FFF;
+}
+
+.fuente {
+
+	font-family: 'Francois One', sans-serif;
+}
+
+.blanco {
+	color: #ffffff;
+}
+
+.negro {
+	color: #000;
+}
+
+.color2 {
+	background-color: #73280d;
+	color: #ffffff;
+}
+.color3 {
+background-color: #000000;
+}
+
+.color4 {
+	background-color: #AB8FCD;
+}
+
+.ancho {
+  min-width:600px;
+}
+
+.txt1{
+	background: url('../img/txt2.png');
+	 background-position: center; 
+	background-size: cover;
+	color: #ffffff;
+	text-shadow: 2px 2px #000000;
+}	
+.txt2{
+	background: url('../img/txt2.png');
+	 background-position: center; 
+	background-size: cover;
+	color: #ffffff;
+}	
+.bg1{
+	background: url('../img/bg1.jpg');
+	background-position: center; 
+	background-size: cover;
+	color: #ffffff;
+	text-shadow: 2px 2px #000000;
+}
+.bg1b{
+	background: url('../img/bg1.jpg');
+	background-position: center; 
+	background-size: cover;
+	color: #ffffff;
+}	
+
+.txt2{
+	background-color: #000000;
+	 background-position: center; 
+
+}
+.lasombra {
+	text-shadow: 2px 2px #000000;
+}
+
+.som {
+	box-shadow: 2px 2px #000000;
+}
+
+.laluz {
+	text-shadow: 1px 1px #FFF;
+}
+
+.tag {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 3s;
+}
+
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.giftbox {
+	background: url('../img/giftbox.jpg');
+}
+
+.giftbox h1 {
+	color: #FFF;
+	font-size: 1em;
+}
+
+.giftbox p {
+	color: #FFF;
+	font-size: 1em;
+}
+
+.catering {
+	background: url('../img/catering.jpg');
+}
+
+.catering h1 {
+	color: #FFF;
+	font-size: 1em;
+	background-color: #000;
+}
+
+.catering p {
+	color: #FFF;
+	font-size: 1em;
+	background-color: #000;
+}
+
+.plocal {
+	background: url('../img/rappi.jpg');
+}
+
+.plocal h1 {
+	color: #FFF;
+	font-size: 1em;
+	background-color: #000;
+}
+
+.plocal p {
+	color: #FFF;
+	font-size: 1em;
+	background-color: #000;
+}
