@@ -103,7 +103,7 @@ background-color: #000000;
 }
 
 .tag {
-  opacity: 0;
+  opacity: 1;
   transform: translate(0, 10vh);
   transition: all 3s;
 }

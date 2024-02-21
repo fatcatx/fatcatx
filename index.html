@@ -1,5 +1,6 @@
 <html>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Inicio | www.portalpanaderia.com</title>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -74,20 +75,20 @@
 						            <li><a class="dropdown-item" href="xmayor.html">Venta al por mayor</a></li>
 						          </ul>
 					        </li>
-					        <li class="nav-item dropdown">
+					        <li class="nav-item dropdown d-none d-lg-block d-xl-block">
 						          <a class="nav-link dropdown-toggle link-body-emphasis" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 						            Puntos de Venta
 						          </a>
-						          <ul class="dropdown-menu w-100 ancho">
-						          	<div class="row">
+						          <ul class="dropdown-menu w-100 ancho  ">
+						          	<div class="row ">
 
-						          		<div class="col-md-4">
+						          		<div class="col-md-4 col-sm-2 ">
 						          			<img src="img/panportal.png" width="100%">
 						          			<p>El Portal de Marsella<br>
       Dirección:<br> Cl. 6b #69A-48, Bogotá<br>
 Teléfono: 310 3033163</p>
 						          		</div>
-						          		<div class="col-md-4">
+						          		<div class="col-md-4 ">
 						          			<img src="img/piporara.jpg" width="100%">
 						          			<p>Piporara<br>
       Dirección:<br> Cra. 70b # 1 - 34, Bogotá<br>
@@ -113,9 +114,9 @@ Teléfono:  350 4445111</p>
 
 		    	</div>
 		  	</nav>
-		  	<div class=" fuente txt2">
+		  	<div class=" fuente ">
 		  		<div class="row my-0 m-5 py-0 ">
-		  			<div class="col-md-4 giftbox som py-5">
+		  			<div class="col-md-12 col-lg-4 giftbox som py-5">
 		  				<div class="row my-5">
 		  				<div class="col-md-6">
 						</div>
@@ -125,7 +126,7 @@ Teléfono:  350 4445111</p>
 			    		<p class=""><small>ENVIOS A NIVEL NACIONAL</small></p>
 			    		</div></div>
 			    	</div>
-			    	<div class="col-md-4 catering som py-5">
+			    	<div class="col-md-12 col-lg-4 catering som py-5">
 		  				<div class="row my-5">
 		  				<div class="col-md-6">
 						</div>
@@ -135,7 +136,7 @@ Teléfono:  350 4445111</p>
 			    		<p class=""><small>Y ABASTECIMIENTO</small></p>
 			    		</div></div>
 			    	</div>
-			    	<div class="col-md-4 plocal som py-5">
+			    	<div class="col-md-12 col-lg-4 plocal som py-5">
 		  				<div class="row my-5">
 		  				<div class="col-md-6">
 						</div>
@@ -195,7 +196,7 @@ Teléfono:  350 4445111</p>
 </div>
 			   <div class="px-4 py-5 my-5 text-center tag">
 			    <h1 class="display-5 fw-bold text-body-emphasis">Historia</h1>
-			    <div class="col-lg-6 mx-auto">
+			    <div class="col-lg-6 col-md-12 mx-auto">
 			      <p class="lead mb-4">
 Desde 1994, Doña Hilda y Don Fernando hicieron realidad su sueño de abrir "Dunkin Tortas", una pequeña panadería y pastelería en el norte de Bogotá. Con productos de calidad y un trato cálido, se convirtieron en un referente en su vecindario. El boca a boca atrajo más clientes, llevándolos a expandirse y cambiar el nombre a "El Portal". Con este cambio, el negocio se convirtió en un símbolo de hospitalidad y calidad, manteniendo su compromiso con la excelencia mientras ofrecían una variedad creciente de productos y servicios. "El Portal" se convirtió en un lugar de encuentro comunitario, donde la comunidad disfrutaba de momentos especiales y deliciosos sabores.</p>
 			    </div>
@@ -241,7 +242,7 @@ console.log($(tag).position().top);
     if ($(tag).position().top < pageBottom) {
       $(tag).addClass("visible");
     } else {
-      $(tag).removeClass("visible");
+      $(tag).addClass("visible");
     }
   }
 });
